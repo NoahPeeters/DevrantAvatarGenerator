@@ -7,20 +7,90 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		404031661FA53E3F00BC3393 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404031651FA53E3F00BC3393 /* OptionsViewController.swift */; };
 		40B483E41FA5160A00DE4391 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B483E31FA5160A00DE4391 /* AppDelegate.swift */; };
-		40B483E61FA5160A00DE4391 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B483E51FA5160A00DE4391 /* ViewController.swift */; };
 		40B483E81FA5160A00DE4391 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40B483E71FA5160A00DE4391 /* Assets.xcassets */; };
 		40B483EB1FA5160A00DE4391 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40B483E91FA5160A00DE4391 /* Main.storyboard */; };
+		40B484111FA5180400DE4391 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B484101FA5180400DE4391 /* ImageViewController.swift */; };
+		40B484131FA5262900DE4391 /* AvatarPropertyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B484121FA5262900DE4391 /* AvatarPropertyType.swift */; };
+		40B484151FA5264100DE4391 /* AvatarProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B484141FA5264100DE4391 /* AvatarProperty.swift */; };
+		40B484171FA52C4500DE4391 /* AvatarLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B484161FA52C4500DE4391 /* AvatarLoader.swift */; };
+		40B4844E1FA5398400DE4391 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B4844D1FA5398400DE4391 /* ImageView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		40B484001FA5170200DE4391 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40B483F51FA5170200DE4391 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		40B484021FA5170200DE4391 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40B483F51FA5170200DE4391 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		40B484041FA5170200DE4391 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40B483F51FA5170200DE4391 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire macOS";
+		};
+		40B484061FA5170200DE4391 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40B483F51FA5170200DE4391 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire macOS Tests";
+		};
+		40B484081FA5170200DE4391 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40B483F51FA5170200DE4391 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626EF1BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS";
+		};
+		40B4840A1FA5170200DE4391 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40B483F51FA5170200DE4391 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626F81BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS Tests";
+		};
+		40B4840C1FA5170200DE4391 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40B483F51FA5170200DE4391 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4202FE01B667AA100C997FB;
+			remoteInfo = "Alamofire watchOS";
+		};
+		40B4840E1FA5170B00DE4391 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40B483F51FA5170200DE4391 /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DD67C0A1A5C55C900ED2280;
+			remoteInfo = "Alamofire macOS";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		404031651FA53E3F00BC3393 /* OptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
 		40B483E01FA5160A00DE4391 /* DevrantAvatar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevrantAvatar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40B483E31FA5160A00DE4391 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		40B483E51FA5160A00DE4391 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		40B483E71FA5160A00DE4391 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40B483EA1FA5160A00DE4391 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		40B483EC1FA5160A00DE4391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40B483ED1FA5160A00DE4391 /* DevrantAvatar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DevrantAvatar.entitlements; sourceTree = "<group>"; };
+		40B483F51FA5170200DE4391 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Carthage/Checkouts/Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
+		40B484101FA5180400DE4391 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		40B484121FA5262900DE4391 /* AvatarPropertyType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPropertyType.swift; sourceTree = "<group>"; };
+		40B484141FA5264100DE4391 /* AvatarProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarProperty.swift; sourceTree = "<group>"; };
+		40B484161FA52C4500DE4391 /* AvatarLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarLoader.swift; sourceTree = "<group>"; };
+		40B4844D1FA5398400DE4391 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +107,7 @@
 		40B483D71FA5160A00DE4391 = {
 			isa = PBXGroup;
 			children = (
+				40B483F51FA5170200DE4391 /* Alamofire.xcodeproj */,
 				40B483E21FA5160A00DE4391 /* DevrantAvatar */,
 				40B483E11FA5160A00DE4391 /* Products */,
 			);
@@ -54,13 +125,32 @@
 			isa = PBXGroup;
 			children = (
 				40B483E31FA5160A00DE4391 /* AppDelegate.swift */,
-				40B483E51FA5160A00DE4391 /* ViewController.swift */,
+				404031651FA53E3F00BC3393 /* OptionsViewController.swift */,
+				40B484101FA5180400DE4391 /* ImageViewController.swift */,
+				40B484121FA5262900DE4391 /* AvatarPropertyType.swift */,
+				40B484141FA5264100DE4391 /* AvatarProperty.swift */,
+				40B484161FA52C4500DE4391 /* AvatarLoader.swift */,
 				40B483E71FA5160A00DE4391 /* Assets.xcassets */,
 				40B483E91FA5160A00DE4391 /* Main.storyboard */,
 				40B483EC1FA5160A00DE4391 /* Info.plist */,
 				40B483ED1FA5160A00DE4391 /* DevrantAvatar.entitlements */,
+				40B4844D1FA5398400DE4391 /* ImageView.swift */,
 			);
 			path = DevrantAvatar;
+			sourceTree = "<group>";
+		};
+		40B483F61FA5170200DE4391 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40B484011FA5170200DE4391 /* Alamofire.framework */,
+				40B484031FA5170200DE4391 /* Alamofire iOS Tests.xctest */,
+				40B484051FA5170200DE4391 /* Alamofire.framework */,
+				40B484071FA5170200DE4391 /* Alamofire macOS Tests.xctest */,
+				40B484091FA5170200DE4391 /* Alamofire.framework */,
+				40B4840B1FA5170200DE4391 /* Alamofire tvOS Tests.xctest */,
+				40B4840D1FA5170200DE4391 /* Alamofire.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +167,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				40B4840F1FA5170B00DE4391 /* PBXTargetDependency */,
 			);
 			name = DevrantAvatar;
 			productName = DevrantAvatar;
@@ -110,12 +201,70 @@
 			mainGroup = 40B483D71FA5160A00DE4391;
 			productRefGroup = 40B483E11FA5160A00DE4391 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 40B483F61FA5170200DE4391 /* Products */;
+					ProjectRef = 40B483F51FA5170200DE4391 /* Alamofire.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				40B483DF1FA5160A00DE4391 /* DevrantAvatar */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		40B484011FA5170200DE4391 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 40B484001FA5170200DE4391 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		40B484031FA5170200DE4391 /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = 40B484021FA5170200DE4391 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		40B484051FA5170200DE4391 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 40B484041FA5170200DE4391 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		40B484071FA5170200DE4391 /* Alamofire macOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire macOS Tests.xctest";
+			remoteRef = 40B484061FA5170200DE4391 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		40B484091FA5170200DE4391 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 40B484081FA5170200DE4391 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		40B4840B1FA5170200DE4391 /* Alamofire tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire tvOS Tests.xctest";
+			remoteRef = 40B4840A1FA5170200DE4391 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		40B4840D1FA5170200DE4391 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 40B4840C1FA5170200DE4391 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		40B483DE1FA5160A00DE4391 /* Resources */ = {
@@ -134,12 +283,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40B483E61FA5160A00DE4391 /* ViewController.swift in Sources */,
+				40B4844E1FA5398400DE4391 /* ImageView.swift in Sources */,
+				40B484131FA5262900DE4391 /* AvatarPropertyType.swift in Sources */,
+				40B484111FA5180400DE4391 /* ImageViewController.swift in Sources */,
+				404031661FA53E3F00BC3393 /* OptionsViewController.swift in Sources */,
+				40B484171FA52C4500DE4391 /* AvatarLoader.swift in Sources */,
 				40B483E41FA5160A00DE4391 /* AppDelegate.swift in Sources */,
+				40B484151FA5264100DE4391 /* AvatarProperty.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40B4840F1FA5170B00DE4391 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire macOS";
+			targetProxy = 40B4840E1FA5170B00DE4391 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		40B483E91FA5160A00DE4391 /* Main.storyboard */ = {
@@ -263,10 +425,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = DevrantAvatar/DevrantAvatar.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 52A793VRAY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = DevrantAvatar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = to.us.peeters.DevrantAvatar;
@@ -279,10 +444,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = DevrantAvatar/DevrantAvatar.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 52A793VRAY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = DevrantAvatar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = to.us.peeters.DevrantAvatar;
